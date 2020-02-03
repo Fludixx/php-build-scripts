@@ -1,10 +1,8 @@
 # Custom PHP build scripts for PocketMine-MP
-[![Build Status](https://dev.azure.com/pocketmine/PHP-Builds/_apis/build/status/pmmp.php-build-scripts)](https://dev.azure.com/pocketmine/PHP-Builds/_build?definitionId=3&_a=summary&view=branches)
-## Looking for prebuilt binaries? Head over to our [Jenkins build server](https://jenkins.pmmp.io/job/PHP-7.3-Aggregate)
 
 ## compile.sh
 
-Bash script used to compile PHP on MacOS and Linux platforms. Make sure you have ``make autoconf automake libtool m4 wget getconf gzip bzip2 bison g++ git cmake``.
+Bash script used to compile PHP on MacOS and Linux platforms. Make sure you have ``make autoconf automake libtool m4 curl getconf gzip bzip2 bison g++ git cmake libffi-dev libonig-dev libsqlite3-dev re2c``.
 
 ### Additional notes
 #### Mac OSX (native compile)
