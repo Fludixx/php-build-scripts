@@ -855,7 +855,7 @@ RANLIB=$RANLIB CFLAGS="$CFLAGS $FLAGS_LTO" CXXFLAGS="$CXXFLAGS $FLAGS_LTO" LDFLA
 --with-gmp="$DIR/bin/php7" \
 --with-yaml="$DIR/bin/php7" \
 --with-openssl="$DIR/bin/php7" \
---with-libzip="$DIR/bin/php7" \
+--with-zip="$DIR/bin/php7" \
 --with-ffi \
 $HAS_LIBPNG \
 $HAS_LIBJPEG \
